@@ -84,7 +84,7 @@ resource "azurerm_virtual_machine" "vm" {
     managed_disk_type = "Standard_LRS"
   }
   os_profile {
-    computer_name  = "satishdevopsvm01"
+    computer_name  = "devopsvm01"
     admin_username = "satishdevops"
     admin_password = "Password123$"
   }
