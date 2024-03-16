@@ -65,7 +65,7 @@ resource "azurerm_network_interface" "vmnic" {
   }
 }
 # Create our Virtual Machine - satishdevops-VM01
-resource "azurerm_virtual_machine" "devopsvm01" {
+resource "azurerm_virtual_machine" "vm" {
   name                  = "devopsvm01"
   location              = azurerm_resource_group.rg.location
   resource_group_name   = azurerm_resource_group.rg.name
